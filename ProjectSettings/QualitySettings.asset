@@ -19,12 +19,12 @@ QualitySettings:
     blendWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 4
+    antiAliasing: 0
     softParticles: 0
     softVegetation: 1
     realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 0
-    vSyncCount: 1
+    vSyncCount: 0
     lodBias: 2
     maximumLODLevel: 0
     particleRaycastBudget: 4096
@@ -69,7 +69,7 @@ QualitySettings:
     shadowDistance: 150
     shadowCascade2Split: .333333343
     shadowCascade4Split: {x: .0666666701, y: .199999988, z: .466666639}
-    blendWeights: 2
+    blendWeights: 4
     textureQuality: 0
     anisotropicTextures: 0
     antiAliasing: 0
@@ -82,13 +82,11 @@ QualitySettings:
     maximumLODLevel: 0
     particleRaycastBudget: 256
     excludedTargetPlatforms:
-    - iPhone
     - Standalone
     - Web
+    - BlackBerry
     - Windows Store Apps
     - WP8
-    - BlackBerry
-    - WebGL
   m_PerPlatformDefaultQuality:
     Android: 0
     BlackBerry: 0
